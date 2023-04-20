@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+}
+
+body {
+    background-image: url(/assets/imagens/OIP.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-center {
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 253px;
+    }
+
+.content-center img {
+    width: 70%;
+    margin-top: 80px;
+}
+
+.content-center form {
+    margin: 20px;
+}
+
+.content-center input,
+.content-center button {
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+}
+
+.content-center input {
+    border-bottom-color: #c03535;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.content-center input:focus {
+    border-bottom-color: coral;
+}
+
+.content-center button {
+    background-color: rgb(240, 45, 45);
+    color: #ccc;
+}
+
+.content-center button:hover {
+    background-color: darkred;
+    cursor: pointer;
+}
+
+.content-center button:active {
+    background-color: red;
+}
+
+header a {
+    text-decoration: none;
+    color: #666;
+}
+
+header a:visited {
+    color: black;
+}
+
+header a:focus {
+    color: red;
+}
+
+header a:active {
+    color: yellow;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 50px auto;
+}
+
+footer p {
+    margin-top: 1em;
+    font-size: .8em;
+    text-align: center;
+}
+
+#text-center {
+    text-align: center;
+}
